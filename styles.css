@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf
+}
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    color: #66bfbf
+}
+
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999e;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+}
+
+.top-container{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #e4f9f5;;
+}
+
+.top-cloud{
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+.bottom-cloud{
+    display: block;
+    position: relative;
+    left: 300px;
+}
+
+.middle-container{
+    padding: 10%;
+    text-align: center;
+}
+
+.profile-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 80%;
+}
+
+.profile-text{
+    margin: auto;
+    width: 30%;
+    line-height: 2;
+    padding: 20px;
+}
+
+hr{
+    width: 4%;
+    border-width: 6px 6px 6px;
+    border-style: dotted dotted none;
+    border-color: rgb(234, 246, 246) rgb(234, 246, 246) rgb(234, 246, 246);
+    border-image: initial;
+    border-bottom: none;
+    margin: 100px auto
+}
+
+.skill-container{
+    padding-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.skill-text{
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+
+.bottom-container{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: #11cdd4;
+}
+
+footer{
+    background-color: #66bfbf;
+    text-align: center;
+    padding: 5%;
+}
+
+footer>p{
+    color: white;
+}
+
+a{
+    padding: 0 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999e;
+    text-decoration: none;
+}
+@media (max-width: 800px) { 
+    h1{
+        font-size: 60px;
+    }
+
+    .top-cloud{
+        width: 100px;
+        position: relative;
+        left: auto;
+    }
+    .bottom-cloud{
+        width: 100px;
+        position: relative;
+        right: auto;
+    }
+
+    .mountain-img{
+        width: 300px;
+    }
+
+    .skill-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+ }
